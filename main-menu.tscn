@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://b2oor1akcpimp"]
 
+[ext_resource type="Script" uid="uid://y11xve4pfjsa" path="res://main_menu.gd" id="1_gvk52"]
+
 [sub_resource type="FontFile" id="FontFile_4thvv"]
 resource_local_to_scene = true
 cache/0/variation_coordinates = {}
@@ -48,12 +50,13 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 5.0
-offset_top = 1.0
-offset_right = 5.0
-offset_bottom = 1.0
+offset_left = 4.0
+offset_top = -2.0
+offset_right = 4.0
+offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_gvk52")
 
 [node name="Play button" type="Button" parent="." unique_id=1371018871]
 layout_mode = 0
@@ -66,3 +69,5 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_4thvv")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_gvk52")
 theme_override_styles/hover = SubResource("StyleBoxFlat_j3jwc")
 text = "Play"
+
+[connection signal="pressed" from="Play button" to="." method="_on_play_button_pressed"]

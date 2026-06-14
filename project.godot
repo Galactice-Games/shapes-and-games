@@ -21,6 +21,12 @@ renderer/rendering_method="mobile"
 
 [xogot]
 
-project/editorState=[]
+project/editorState=[{
+"column": 0,
+"current": true,
+"line": 4,
+"path": "res://main_menu.gd",
+"type": "file"
+}]
 project/breakpoints={}
 project/disabled_breakpoints={}
