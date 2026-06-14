@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://b2oor1akcpimp"]
+
+[sub_resource type="FontFile" id="FontFile_4thvv"]
+resource_local_to_scene = true
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4thvv"]
+bg_color = Color(0.47225952, 0.611145, 1, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.24421692, 0.47572327, 1, 1)
+shadow_size = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gvk52"]
+bg_color = Color(0.24421692, 0.475708, 1, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.47225952, 0.611145, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j3jwc"]
+bg_color = Color(0.3944397, 0.421875, 1, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.24029541, 0.58247375, 1, 1)
+shadow_size = 10
+
+[node name="Control" type="Control" unique_id=44479340]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 1.0
+offset_right = 5.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Play button" type="Button" parent="." unique_id=1371018871]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 8.0
+offset_right = 555.0
+offset_bottom = 139.0
+theme_override_fonts/font = SubResource("FontFile_4thvv")
+theme_override_styles/normal = SubResource("StyleBoxFlat_4thvv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_gvk52")
+theme_override_styles/hover = SubResource("StyleBoxFlat_j3jwc")
+text = "Play"
