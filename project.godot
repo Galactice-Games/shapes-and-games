@@ -38,13 +38,19 @@ project/editorState=[{
 "type": "file"
 }, {
 "column": 0,
-"current": true,
 "line": 0,
-"path": "res://player.gd",
+"path": "res://level_1_1.gd",
+"type": "file"
+}, {
+"column": 28,
+"current": true,
+"line": 14,
+"path": "res://character_body_2d.gd",
 "type": "file"
 }]
 project/breakpoints={
 "res://button.gd": PackedInt32Array(1, 0),
+"res://level_1_1.gd": PackedInt32Array(4),
 "res://play_button.gd": PackedInt32Array(1, 2)
 }
 project/disabled_breakpoints={}
