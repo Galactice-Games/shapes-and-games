@@ -42,7 +42,7 @@ project/editorState=[{
 "path": "res://level_1_1.gd",
 "type": "file"
 }, {
-"column": 28,
+"column": 0,
 "current": true,
 "line": 14,
 "path": "res://character_body_2d.gd",
@@ -54,3 +54,4 @@ project/breakpoints={
 "res://play_button.gd": PackedInt32Array(1, 2)
 }
 project/disabled_breakpoints={}
+project/xogot_game_id="4259_theshapeshow"
