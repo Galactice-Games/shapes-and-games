@@ -23,10 +23,28 @@ renderer/rendering_method="mobile"
 
 project/editorState=[{
 "column": 0,
-"current": true,
-"line": 4,
+"line": 1,
 "path": "res://main_menu.gd",
 "type": "file"
+}, {
+"column": 0,
+"line": 0,
+"path": "res://play_button.gd",
+"type": "file"
+}, {
+"column": 0,
+"line": 0,
+"path": "res://level_selector.gd",
+"type": "file"
+}, {
+"column": 0,
+"current": true,
+"line": 0,
+"path": "res://player.gd",
+"type": "file"
 }]
-project/breakpoints={}
+project/breakpoints={
+"res://button.gd": PackedInt32Array(1, 0),
+"res://play_button.gd": PackedInt32Array(1, 2)
+}
 project/disabled_breakpoints={}

@@ -1,9 +1,24 @@
 [gd_scene format=3 uid="uid://d1f3v5h4bx3uj"]
 
+[ext_resource type="Script" uid="uid://bco2ynu56gob7" path="res://level_selector.gd" id="1_yejoa"]
+
 [node name="Control" type="Control" unique_id=420543952]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 6.0
+offset_right = 5.0
+offset_bottom = 6.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_yejoa")
+
+[node name="Button" type="Button" parent="." unique_id=666705039]
+layout_mode = 0
+offset_right = 276.0
+offset_bottom = 60.0
+text = "Button"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

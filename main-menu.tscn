@@ -68,6 +68,6 @@ theme_override_fonts/font = SubResource("FontFile_4thvv")
 theme_override_styles/normal = SubResource("StyleBoxFlat_4thvv")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_gvk52")
 theme_override_styles/hover = SubResource("StyleBoxFlat_j3jwc")
-text = "Play"
+text = "Single Player"
 
 [connection signal="pressed" from="Play button" to="." method="_on_play_button_pressed"]
